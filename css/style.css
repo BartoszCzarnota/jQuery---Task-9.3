@@ -17,7 +17,6 @@
 	padding: 0;
 	border: 1px solid black;
 	overflow: hidden;
-	display: inline-block;
 	float: left;
 }
 /*.carousel-inner > .item > img {
@@ -33,12 +32,13 @@
 }
 img {
 	width: 600px;
-	height: 400px;
-	margin: 0;
-	padding: 0;
-	display: inline-block;
 }
-.btn-wrapper {
+.image li {
+	height: 400px;
+	width: 600px;
+	float: left;
+}
+/*.btn-wrapper {
 	position: absolute;
 	top: 280px;
 	width: 600px;
@@ -54,4 +54,4 @@ img {
 }
 .leftarrow:hover, .rightarrow:hover {
 	cursor: pointer
-}
+}*/

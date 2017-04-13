@@ -14,7 +14,7 @@ $(function() {
 		});
 
 		rightarrow.on("click", function() {
-			carouselList.animate({'marginRight': 1200}, 2200, function(){
+			carouselList.animate({'marginRight': 1200}, 1100, function(){
 					$(this).find("li:last").after($(this).find("li:first"));
 					$(this).css({marginLeft: 0});
 			});
